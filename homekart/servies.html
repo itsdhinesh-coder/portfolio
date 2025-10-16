@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .cont-main{
+            width: 100%;
+            height: 100vh;
+            background-image: url(services.png);
+            background-size: cover;
+            box-sizing: border-box;
+        }
+        .cont1{
+            width: 100%;
+            height: 8%;
+        }
+        .cont2{
+            width: 100%;
+            height: 77%;
+            box-sizing: border-box;
+        }
+        .carousel-item img {
+            height: 79vh;       
+            object-fit: contain;
+        }
+        .cont3{
+            width: 100%;
+            height: 15%;
+            color: white;
+            font-style: italic;
+            text-shadow: 3px 3px 1px black;
+        }
+        h2{
+            font-size: 3rem;
+            text-decoration: underline;
+            font-family: fantasy;
+            text-shadow: 3px 3px 1px rgb(16, 60, 96);
+            border: 3px solid steelblue;
+            width: fit-content;
+            margin-left: 15rem;
+            padding: 0.5rem;
+            border-radius: 25px;
+            background-color: #b9c8d4;
+            color: rgb(0, 0, 0);
+            box-shadow: 5px 5px 3px rgb(88, 152, 205);
+        }
+        .carousel-item p{
+           font-style: italic;
+           text-shadow: 2px 2px 1px black;
+           background-color: rgba(18, 57, 89, 0.884);
+           border-radius: 50%;
+           padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <div class="cont-main">
+        <div class="cont1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-primary" id="nav-brand" href="projectnew.html"><b><i class="bi bi-house-heart"></i>HomeKart</b></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="projectnew.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="two" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="display.html">Explore</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="servies.html">Our Services</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </nav>
+        </div>
+        <div class="cont2">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="inscns.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Investment Consultation</h2>
+                        <p>“Transforming real estate into timeless assets—our premium investment consultation <br> blends trust, expertise, and exclusivity to help you secure wealth and create a legacy in luxury properties.”</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="intr1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Interior Design</h2>
+                        <p>“Redefining spaces with timeless elegance, our luxury interior design blends artistry <br> and sophistication to create bespoke environments that reflect your lifestyle and prestige.”</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="allpnt.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>All Point Assistance</h2>
+                        <p>“From property search to seamless ownership, we provide complete real estate solutions <br> with trusted guidance, personalized care, and top-to-bottom assistance at every step.”</p>
+                    </div>
+                    </div>
+                     <div class="carousel-item">
+                    <img src="mainte.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Maintenance</h2>
+                        <p>“Reliable property maintenance services that preserve beauty, enhance value, and ensure <br> every detail of your space is cared for with precision, professionalism, and trust.”</p>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="cont3">
+            <div class="col text-start" style="padding: 3rem;">&copy;2025 Homekart Properties. All rights reserved.| Licencesed Real Estate Chanel partner <span style="padding-left: 30rem;">Privacy Policy &nbsp; Disclaimers</span></div>
+        </div>
+    </div>
+    
+</body>
+</html>

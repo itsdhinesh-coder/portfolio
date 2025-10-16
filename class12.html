@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            border: 1px solid  red;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body id="bdy">
+    <h1 id="one">Hello World</h1>
+    <button id="two" onclick="changeText()">click Me</button><br><br>
+    <div id="box"></div>
+    <button onmouseover="changeBox()">Click me</button>
+    <script>
+    let a = document.getElementById("one").textContent = "Hi"
+    console.log(a)
+    a = document.getElementById("one").style.color = "blue"
+    console.log(a)
+    a = document.getElementById("one").style.backgroundColor = "black"
+    console.log(a)
+    a = document.getElementById("one").style.fontSize = "5rem"
+    console.log(a)
+    let b = document.getElementById("bdy").style.backgroundColor = "lightblue"
+    console.log(b)
+    function changeText(){
+        document.getElementById("one").textContent="welcome to javascript";
+        document.getElementById("one").style.color = "green";
+    }
+    function changeBox(){
+        document.getElementById("box").style.backgroundColor = "red";
+       /*  alert("don't click") */
+    }
+    let c = document.getElementById("one")
+    let d = document.getElementById("two");
+    d.addEventListener("click", function(){
+        c.textContent = "welcome"
+    })
+    d.addEventListener("mouseover", function(){
+        c.style.color = " brown"
+    })
+    d.addEventListener("mouseout", function(){
+        c.style.color = "grey"
+    })
+</script>
+</body>
+
+</html>
